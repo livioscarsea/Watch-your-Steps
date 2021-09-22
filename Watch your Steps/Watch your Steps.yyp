@@ -8,7 +8,7 @@
     {"id":{"name":"arrow_object","path":"objects/arrow_object/arrow_object.yy",},"order":2,},
     {"id":{"name":"special_door_sprite","path":"sprites/special_door_sprite/special_door_sprite.yy",},"order":5,},
     {"id":{"name":"special_key_object","path":"objects/special_key_object/special_key_object.yy",},"order":7,},
-    {"id":{"name":"Script2","path":"scripts/Script2/Script2.yy",},"order":1,},
+    {"id":{"name":"chiave","path":"scripts/chiave/chiave.yy",},"order":1,},
     {"id":{"name":"key_object","path":"objects/key_object/key_object.yy",},"order":4,},
     {"id":{"name":"player_sprite","path":"sprites/player_sprite/player_sprite.yy",},"order":3,},
     {"id":{"name":"arrow_sprite","path":"sprites/arrow_sprite/arrow_sprite.yy",},"order":6,},

@@ -11,7 +11,7 @@ vsp = vsp + grv;
 
 if (place_meeting(x,y+1,block_object) && (key_jump))
 	{
-		vsp = -8;
+		vsp = -10;
 	}
 
 //SEZIONE DI DEFINIZIONE DELA COLLISIONE ORIZZONTALE
@@ -35,3 +35,7 @@ if (place_meeting(x,y+vsp,block_object))
 		vsp = 0;
 	}
 y = y + vsp;
+//fa sparire la chiave quando la tocca
+if (place_meeting(x,y, key_object)) chiave(key_object);
+
+if (place_meeting(x,y, special_key_object)) chiave(special_key_object);
