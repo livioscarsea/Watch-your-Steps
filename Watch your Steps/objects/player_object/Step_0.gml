@@ -3,7 +3,7 @@ key_left = keyboard_check_pressed(vk_left);
 key_jump = keyboard_check_pressed(vk_space);
 
 //SEZIONE DI DEFINIZIONE DELLA GRAVITA'
-var move = key_right - key_left;	//con var definisco una variabile temporanea, che quindi dura solamente per un frame	//con questa riga di codice evito che il personaggio si muova stranamente in qualsiasi situazione vengano premute destra e sinistra allo stesso momento
+var move = key_right - key_left;	//con var definisco una variabile locale, che quindi dura solamente per un frame	//con questa riga di codice evito che il personaggio si muova stranamente in qualsiasi situazione vengano premute destra e sinistra allo stesso momento
 
 hsp = move * walksp;
 
@@ -11,7 +11,7 @@ vsp = vsp + grv;
 
 if (place_meeting(x,y+1,block_object) && (key_jump))
 	{
-		vsp = -7;
+		vsp = -8;
 	}
 
 //SEZIONE DI DEFINIZIONE DELA COLLISIONE ORIZZONTALE
