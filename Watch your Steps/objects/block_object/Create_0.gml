@@ -1,2 +1,1 @@
-fermoImmagine();
-
+fermoImmagine(0);

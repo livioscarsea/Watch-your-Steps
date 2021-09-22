@@ -1,4 +1,4 @@
-fermoImmagine(){
-    image_index=0;
+fermoImmagine(fermo){
+    image_index=fermo;
     image_speed=0;
 }
