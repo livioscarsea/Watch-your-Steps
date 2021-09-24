@@ -36,7 +36,9 @@ if (place_meeting(x,y+vsp,block_object))
 	}
 y = y + vsp;
 
-//fa sparire la chiave quando la tocca
+//prende le chiavi
 if (place_meeting(x,y, key_object)) keyTake=true;
 
 if (place_meeting(x,y, special_key_object)) specialKeyTake=true;
+//se il giocatore va sopra questo blocco il gioco ricomincia
+if (place_meeting(x, y-1, kill_object)) game_restart();
