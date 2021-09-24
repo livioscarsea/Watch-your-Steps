@@ -1,1 +1,0 @@
-fermoImmagine(0);

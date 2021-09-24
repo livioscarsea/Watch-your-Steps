@@ -37,8 +37,6 @@ if (place_meeting(x,y+vsp,block_object))
 y = y + vsp;
 
 //fa sparire la chiave quando la tocca
-if (place_meeting(x,y, key_object)) chiave(key_object);
+if (place_meeting(x,y, key_object)) keyTake=true;
 
-if (place_meeting(x,y, special_key_object)) chiave(special_key_object);
-
-if(place_meeting(x,y, door_object)&&keyboard_check(vk_up)&&global.keyTake) cambioStanza();
+if (place_meeting(x,y, special_key_object)) specialKeyTake=true;
