@@ -24,6 +24,7 @@
     {"id":{"name":"spike_sprite","path":"sprites/spike_sprite/spike_sprite.yy",},"order":2,},
     {"id":{"name":"block_sprite","path":"sprites/block_sprite/block_sprite.yy",},"order":0,},
     {"id":{"name":"door_sprite","path":"sprites/door_sprite/door_sprite.yy",},"order":4,},
+    {"id":{"name":"Sprite14","path":"sprites/Sprite14/Sprite14.yy",},"order":16,},
     {"id":{"name":"special_steps_adder_sprite","path":"sprites/special_steps_adder_sprite/special_steps_adder_sprite.yy",},"order":10,},
     {"id":{"name":"key_sprite","path":"sprites/key_sprite/key_sprite.yy",},"order":7,},
     {"id":{"name":"level2","path":"rooms/level2/level2.yy",},"order":1,},
