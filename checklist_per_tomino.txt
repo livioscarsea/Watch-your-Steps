@@ -1,0 +1,31 @@
+CHECKLIST PER TOMINO (LEGGI TUTTA LA LISTA PRIMA DI COMINCIARE A FARE ROBE PLS)
+
+- I dispenser non vanno (ma mi pare che sta cosa l'avessi già tenuta a mente, forse è solo un discorso di debug); 06/10
+
+- Quando torno indietro in una stanza da quella successiva, la chiave che ho precedentemente preso ricompare (chiaramente non deve essere così); 27/09
+
+- Le dimensioni della viewport nella seconda room vanno aggiustate; inerente alla camera
+
+- La camera è troppo fissa (potrebbe essere un problema se dovessimo zoommare di più, ricorda il discorso dell'aliasing [sprite del giocatore che si sdoppia], in ogni caso se non si presenta questo problema allora il discorso sfocia sul valutare la migliore scelta di stile); più avanti
+
+- FATTO Ti consiglio di aggiungere un keyboard_check_pressed(ord("R")) per far ripartire il gioco, è utile in fase di debug (quindi chiaramente sta cosa andrà rimossa a gioco finito (o forse no? boh vediamo quanto vogliamo essere punitivi convergendo questo discorso a quello del limite di passi);
+
+- Per quanto riguarda i dispenser ne abbiamo già parlato, non serve che ti dica niente (ma se dimentichi qualcosa scrivimi o chiamami quando vuoi carissimo);
+
+- Programma il limite dei passi (consiglio: usa il draw event per mostrare sullo schermo il numero di passi disponibili rimanenti); 29/09
+
+- Programma lo steps_adder_object, deve reagire come il key_object alla collisione e deve aggiungere un numero che vuoi tu (per ora) al limite dei passi;
+
+- Programma anche lo special_steps_adder_object. Stessa roba del precedente ma con la differenza che aggiunge più passi (consiglio: io farei un copia incolla, ma a te piacciono gli script, valuta tu la scelta migliore);
+
+- Programma lo spike_object, molto semplice, deve uccidere il giocatore appena lo tocca (in asse Y solo da sopra, in asse X invece da entrambi le parti);
+
+- Il light block lascialo così, per adesso devo ancora scegliere il suo funzionamento (ho già delle idee tranguill), teniamolo come jolly per il debug per ora se ti fa comodo (anche se ti consiglio di creare un nuovo oggetto per quello, così non ti confondi più avanti quando dovremmo implementare il light_block_object);
+
+- Domandina che ho invece, perchè hai creato il kill_object invece di uccidere il player all'interno del codice degli oggetti che lo devono uccidere?
+
+Per ora la lista va bene così, più avanti dovremmo aggiungere degli oggetti per gli NPC e per i monumenti e balle varie (elementi della storia, non farti troppe paranoie tranquillo che è tutto culcolato per adesso);
+
+MORALE DELLA FAVOLA: CHIAMAMI QUANDO SERVE. E SOPRATTUTTO NON FARE TUTTO SUBITO CHE DIOCAN DOPO IO RIMANGO INDIETRO. Ah si, ricordati di caricare anche la cartella "datafiles" nel commit la prossima volta, che sto giro non so come ha fatto gamemaker ad aprirmi il progetto.
+
+ti voglio bene tomino :3 (no homo)

@@ -1,6 +1,8 @@
 key_right = keyboard_check_pressed(vk_right);
 key_left = keyboard_check_pressed(vk_left);
 key_jump = keyboard_check_pressed(vk_space);
+//rimuovere in versione definitiva solo debug
+if(keyboard_check_pressed(ord("R"))) game_restart();
 
 //SEZIONE DI DEFINIZIONE DELLA GRAVITA'
 var move = key_right - key_left;	//con var definisco una variabile locale, che quindi dura solamente per un frame	//con questa riga di codice evito che il personaggio si muova stranamente in qualsiasi situazione vengano premute destra e sinistra allo stesso momento
@@ -37,7 +39,6 @@ if (place_meeting(x,y+vsp,block_object))
 y = y + vsp;
 
 //prende le chiavi
-if (place_meeting(x,y, key_object)) keyTake=true;
+if (place_meeting(x, y, key_object)) keyTake=true;
 
-if (place_meeting(x,y, special_key_object)) specialKeyTake=true;
-
+if (place_meeting(x, y, special_key_object)) specialKeyTake=true;
