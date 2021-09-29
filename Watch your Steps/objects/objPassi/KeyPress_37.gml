@@ -1,0 +1,1 @@
+if(!player_object.collisioneSx) conta+=1;

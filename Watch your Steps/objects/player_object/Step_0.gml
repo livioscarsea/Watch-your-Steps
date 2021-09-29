@@ -42,3 +42,8 @@ y = y + vsp;
 if (place_meeting(x, y, key_object)) keyTake=true;
 
 if (place_meeting(x, y, special_key_object)) specialKeyTake=true;
+
+if (!place_empty(x+1, y-1)) collisioneDx=true;
+else collisioneDx=false;
+if (!place_empty(x-1, y-1)) collisioneSx=true;
+else collisioneSx=false;

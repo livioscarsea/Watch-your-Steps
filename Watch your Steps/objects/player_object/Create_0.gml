@@ -6,3 +6,5 @@ walksp = 32;	//velocità in camminata
 fermoImmagine(0);
 keyTake=false;
 specialKeyTake=false;
+collisioneDx=false;
+collisioneSx=false;

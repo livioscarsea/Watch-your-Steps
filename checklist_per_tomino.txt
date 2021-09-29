@@ -12,7 +12,7 @@ CHECKLIST PER TOMINO (LEGGI TUTTA LA LISTA PRIMA DI COMINCIARE A FARE ROBE PLS)
 
 - Per quanto riguarda i dispenser ne abbiamo già parlato, non serve che ti dica niente (ma se dimentichi qualcosa scrivimi o chiamami quando vuoi carissimo);
 
-- Programma il limite dei passi (consiglio: usa il draw event per mostrare sullo schermo il numero di passi disponibili rimanenti); 29/09
+- FATTO Programma il limite dei passi (consiglio: usa il draw event per mostrare sullo schermo il numero di passi disponibili rimanenti); 29/09
 
 - Programma lo steps_adder_object, deve reagire come il key_object alla collisione e deve aggiungere un numero che vuoi tu (per ora) al limite dei passi;
 

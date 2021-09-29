@@ -1,0 +1,1 @@
+draw_text(player_object.x, player_object.y-64, conta);
