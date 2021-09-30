@@ -12,6 +12,7 @@
     {"id":{"name":"arrow_dispenser_sprite","path":"sprites/arrow_dispenser_sprite/arrow_dispenser_sprite.yy",},"order":12,},
     {"id":{"name":"key_object","path":"objects/key_object/key_object.yy",},"order":4,},
     {"id":{"name":"Sprite13","path":"sprites/Sprite13/Sprite13.yy",},"order":15,},
+    {"id":{"name":"retracticle_spike","path":"sprites/retracticle_spike/retracticle_spike.yy",},"order":13,},
     {"id":{"name":"player_sprite","path":"sprites/player_sprite/player_sprite.yy",},"order":3,},
     {"id":{"name":"arrow_sprite","path":"sprites/arrow_sprite/arrow_sprite.yy",},"order":6,},
     {"id":{"name":"spike_object","path":"objects/spike_object/spike_object.yy",},"order":9,},

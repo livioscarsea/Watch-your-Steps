@@ -9,4 +9,3 @@ specialKeyTake=false;
 collisioneDx=false;
 collisioneSx=false;
 timer = room_speed * 3;
-ready=false;
