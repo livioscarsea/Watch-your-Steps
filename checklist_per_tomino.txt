@@ -14,11 +14,11 @@ CHECKLIST PER TOMINO (LEGGI TUTTA LA LISTA PRIMA DI COMINCIARE A FARE ROBE PLS)
 
 - FATTO Programma il limite dei passi (consiglio: usa il draw event per mostrare sullo schermo il numero di passi disponibili rimanenti); 29/09
 
-- Programma lo steps_adder_object, deve reagire come il key_object alla collisione e deve aggiungere un numero che vuoi tu (per ora) al limite dei passi;
+- FATTO Programma lo steps_adder_object, deve reagire come il key_object alla collisione e deve aggiungere un numero che vuoi tu (per ora) al limite dei passi;
 
-- Programma anche lo special_steps_adder_object. Stessa roba del precedente ma con la differenza che aggiunge più passi (consiglio: io farei un copia incolla, ma a te piacciono gli script, valuta tu la scelta migliore);
+- FATTO Programma anche lo special_steps_adder_object. Stessa roba del precedente ma con la differenza che aggiunge più passi (consiglio: io farei un copia incolla, ma a te piacciono gli script, valuta tu la scelta migliore);
 
-- Programma lo spike_object, molto semplice, deve uccidere il giocatore appena lo tocca (in asse Y solo da sopra, in asse X invece da entrambi le parti);
+- FATTO Programma lo spike_object, molto semplice, deve uccidere il giocatore appena lo tocca (in asse Y solo da sopra, in asse X invece da entrambi le parti);
 
 - Il light block lascialo così, per adesso devo ancora scegliere il suo funzionamento (ho già delle idee tranguill), teniamolo come jolly per il debug per ora se ti fa comodo (anche se ti consiglio di creare un nuovo oggetto per quello, così non ti confondi più avanti quando dovremmo implementare il light_block_object);
 
