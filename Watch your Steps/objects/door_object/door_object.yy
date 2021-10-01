@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "retracticle_spike_trigger",
-    "path": "sprites/retracticle_spike_trigger/retracticle_spike_trigger.yy",
+    "name": "door_sprite",
+    "path": "sprites/door_sprite/door_sprite.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,15 +20,18 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "spike",
-    "path": "folders/Objects/spike.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objSpikeTrigger",
+  "name": "door_object",
   "tags": [],
   "resourceType": "GMObject",
 }

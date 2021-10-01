@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "retracticle_spike_trigger",
-    "path": "sprites/retracticle_spike_trigger/retracticle_spike_trigger.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -24,11 +21,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "spike",
-    "path": "folders/Objects/spike.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objSpikeTrigger",
+  "name": "objCount",
   "tags": [],
   "resourceType": "GMObject",
 }

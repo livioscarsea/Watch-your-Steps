@@ -1,1 +1,0 @@
-if(place_meeting(x, y, door_object)) room_goto(level2);
