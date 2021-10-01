@@ -1,6 +1,6 @@
-var key_right = keyboard_check_pressed(vk_right);
-var key_left = keyboard_check_pressed(vk_left);
-var key_jump = keyboard_check_pressed(vk_space);
+key_right = keyboard_check_pressed(vk_right);
+key_left = keyboard_check_pressed(vk_left);
+key_jump = keyboard_check_pressed(vk_space);
 var move = key_right - key_left;
 //rimuovere in versione definitiva solo debug
 if(keyboard_check_pressed(ord("R"))) game_restart();
@@ -40,16 +40,6 @@ if (place_meeting(x,y+vsp,block_object))
 			}
 		vsp = 0;
 	}
-
-if (place_meeting(x,y+vsp,objSpikeTrigger))
-	{
-		while (!place_meeting(x,y+sign(vsp),objSpikeTrigger))
-			{
-				y = y + sign(vsp);
-			}
-		vsp = 0;
-	}
-
 y = y + vsp;
 
 //prende le chiavi
