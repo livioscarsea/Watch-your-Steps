@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite14",
-    "path": "sprites/Sprite14/Sprite14.yy",
+    "name": "retracticle_spike_trigger",
+    "path": "sprites/retracticle_spike_trigger/retracticle_spike_trigger.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,18 +20,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "spike",
+    "path": "folders/Objects/spike.yy",
   },
   "resourceVersion": "1.0",
-  "name": "kill_object",
+  "name": "objSpikeTrigger",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "arrow",
+    "path": "folders/Objects/arrow.yy",
   },
   "resourceVersion": "1.0",
   "name": "arrow_dispenser_object",

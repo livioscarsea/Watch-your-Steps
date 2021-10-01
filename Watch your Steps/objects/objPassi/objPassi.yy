@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "Sprite16",
-    "path": "sprites/Sprite16/Sprite16.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -29,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "steps",
+    "path": "folders/Objects/steps.yy",
   },
   "resourceVersion": "1.0",
   "name": "objPassi",

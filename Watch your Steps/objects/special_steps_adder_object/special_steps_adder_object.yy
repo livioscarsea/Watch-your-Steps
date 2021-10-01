@@ -28,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "steps",
+    "path": "folders/Objects/steps.yy",
   },
   "resourceVersion": "1.0",
   "name": "special_steps_adder_object",
