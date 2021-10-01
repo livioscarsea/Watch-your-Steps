@@ -1,12 +1,7 @@
-/*var key_right = keyboard_check_pressed(vk_right);
+var key_right = keyboard_check_pressed(vk_right);
 var key_left = keyboard_check_pressed(vk_left);
-var key_jump = keyboard_check_pressed(vk_space);*/
-
-var xDirection =keyboard_check_pressed(vk_left)||keyboard_check_pressed(vk_right);
-var jump = keyboard_check_pressed(vk_space);
-var onTheGround=place_meeting(x,y+1,block_object)||place_meeting(x,y+1,objSpikeTrigger);
-
-//var move = key_right - key_left;
+var key_jump = keyboard_check_pressed(vk_space);
+var move = key_right - key_left;
 //rimuovere in versione definitiva solo debug
 if(keyboard_check_pressed(ord("R"))) game_restart();
 
@@ -45,6 +40,16 @@ if (place_meeting(x,y+vsp,block_object))
 			}
 		vsp = 0;
 	}
+
+if (place_meeting(x,y+vsp,objSpikeTrigger))
+	{
+		while (!place_meeting(x,y+sign(vsp),objSpikeTrigger))
+			{
+				y = y + sign(vsp);
+			}
+		vsp = 0;
+	}
+
 y = y + vsp;
 
 //prende le chiavi
