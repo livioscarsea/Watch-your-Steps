@@ -22,7 +22,7 @@
     {"id":{"name":"camera_object","path":"objects/camera_object/camera_object.yy",},"order":9,},
     {"id":{"name":"level03","path":"rooms/level03/level03.yy",},"order":2,},
     {"id":{"name":"player_object","path":"objects/player_object/player_object.yy",},"order":0,},
-    {"id":{"name":"debug","path":"rooms/debug/debug.yy",},"order":2,},
+    {"id":{"name":"debug","path":"rooms/debug/debug.yy",},"order":1,},
     {"id":{"name":"arrow_dispenser_object","path":"objects/arrow_dispenser_object/arrow_dispenser_object.yy",},"order":1,},
     {"id":{"name":"steps_adder_object","path":"objects/steps_adder_object/steps_adder_object.yy",},"order":2,},
     {"id":{"name":"objRetracticleSpike","path":"objects/objRetracticleSpike/objRetracticleSpike.yy",},"order":0,},
@@ -55,12 +55,12 @@
     ],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"debug","path":"rooms/debug/debug.yy",},},
     {"roomId":{"name":"level01","path":"rooms/level01/level01.yy",},},
     {"roomId":{"name":"level02","path":"rooms/level02/level02.yy",},},
     {"roomId":{"name":"level03","path":"rooms/level03/level03.yy",},},
     {"roomId":{"name":"level04","path":"rooms/level04/level04.yy",},},
     {"roomId":{"name":"level05","path":"rooms/level05/level05.yy",},},
-    {"roomId":{"name":"debug","path":"rooms/debug/debug.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -81,7 +81,7 @@
     {"folderPath":"folders/Objects/doors.yy","order":14,"resourceVersion":"1.0","name":"doors","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/arrow.yy","order":15,"resourceVersion":"1.0","name":"arrow","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/steps.yy","order":16,"resourceVersion":"1.0","name":"steps","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Rooms/ATTO 0 (TUTORIAL).yy","order":3,"resourceVersion":"1.0","name":"ATTO 0 (TUTORIAL)","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Rooms/ATTO 0 (TUTORIAL).yy","order":0,"resourceVersion":"1.0","name":"ATTO 0 (TUTORIAL)","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
