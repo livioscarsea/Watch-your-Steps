@@ -32,21 +32,15 @@ if (place_meeting(x+hsp,y,block_object))
 x = x + hsp;
 
 //SEZIONE DI DEFINIZIONE DELA COLLISIONE VERTICALE
-if (place_meeting(x,y+vsp,block_object))
-	{
-		while (!place_meeting(x,y+sign(vsp),block_object))
-			{
-				y = y + sign(vsp);
-			}
-		vsp = 0;
-	}
+collisioneV(block_object);
+collisioneV(spike_object);
+collisioneV(objSpikeTrigger);
 y = y + vsp;
-
 //prende le chiavi
 if (place_meeting(x, y, key_object)) keyTake=true;
-
 if (place_meeting(x, y, special_key_object)) specialKeyTake=true;
 
+//blocco passi
 if (!place_empty(x+1, y-1, block_object)) collisioneDx=true;
 else collisioneDx=false;
 if (!place_empty(x-1, y-1, block_object)) collisioneSx=true;
