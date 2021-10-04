@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "retracticle_spike",
-    "path": "sprites/retracticle_spike/retracticle_spike.yy",
+    "name": "block_sprite",
+    "path": "sprites/block_sprite/block_sprite.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,11 +24,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "spike",
-    "path": "folders/Objects/spike.yy",
+    "name": "temple",
+    "path": "folders/Objects/temple.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objRetracticleSpike",
+  "name": "temple_block",
   "tags": [],
   "resourceType": "GMObject",
 }

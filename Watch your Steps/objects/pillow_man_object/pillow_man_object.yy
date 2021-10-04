@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "retracticle_spike",
-    "path": "sprites/retracticle_spike/retracticle_spike.yy",
+    "name": "pillow_man_sprite",
+    "path": "sprites/pillow_man_sprite/pillow_man_sprite.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,11 +24,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "spike",
-    "path": "folders/Objects/spike.yy",
+    "name": "npcs",
+    "path": "folders/Objects/npcs.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objRetracticleSpike",
+  "name": "pillow_man_object",
   "tags": [],
   "resourceType": "GMObject",
 }
