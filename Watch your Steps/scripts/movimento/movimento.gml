@@ -9,3 +9,14 @@ function collisioneV(obj){
 	}
 	return vsp;
 }
+function collisioneH(obj){
+if (place_meeting(x+hsp,y,obj))
+	{
+		while (!place_meeting(x+sign(hsp),y,obj))
+			{
+				x = x + sign(hsp);
+			}
+		hsp = 0;
+	}
+	return hsp;
+}

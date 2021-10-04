@@ -1,3 +1,3 @@
 targetRoom=level03;
-targetX=832;
-targetY=608;
+targetX=256;
+targetY=416;

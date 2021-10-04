@@ -1,4 +1,3 @@
-//SEZIONE DI DEFINIZIONE DELLE VARIABILI
 hsp = 0;		//velocità orizzontale
 vsp = 0;		//velocità verticale	
 grv = 0.3;	//gravità
@@ -8,4 +7,5 @@ keyTake=false;
 specialKeyTake=false;
 collisioneDx=false;
 collisioneSx=false;
+global.morto=false;
 timer = room_speed * 3;

@@ -1,4 +1,6 @@
 /// @description Insert description here
-var targetRoom, targetX, targetY;
+targetRoom="";
+targetX=0;
+targetY=0;
 fermoImmagine(0);
 keyTake=false;

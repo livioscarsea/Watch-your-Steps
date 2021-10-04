@@ -3,7 +3,7 @@
     "name": "retracticle_spike",
     "path": "sprites/retracticle_spike/retracticle_spike.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
