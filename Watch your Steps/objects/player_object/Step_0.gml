@@ -23,11 +23,12 @@ if (place_meeting(x,y+1,block_object) && (key_jump))
 		vsp = -10;
 	}
 
-//SEZIONE DI DEFINIZIONE DELA COLLISIONE ORIZZONTALE
+//COLLISIONE ORIZZONTALE
 collisioneH(block_object);
+
 x = x + hsp;
 
-//SEZIONE DI DEFINIZIONE DELA COLLISIONE VERTICALE
+//COLLISIONE VERTICALE
 collisioneV(block_object);
 collisioneV(spike_object);
 collisioneV(objSpikeTrigger);
@@ -42,3 +43,10 @@ if (!place_empty(x+1, y-1, block_object)) collisioneDx=true;
 else collisioneDx=false;
 if (!place_empty(x-1, y-1, block_object)) collisioneSx=true;
 else collisioneSx=false;
+
+//morte spikes
+if(place_meeting(x,y+1, spike_object)){
+	hsp=0;
+	x=x+hsp;
+	fermoImmagine(2);
+}

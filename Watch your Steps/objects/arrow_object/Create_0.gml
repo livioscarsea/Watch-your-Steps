@@ -1,3 +1,3 @@
-timer=160;
+timer=1;
 speed=3;
 direction=180;

@@ -7,5 +7,4 @@ keyTake=false;
 specialKeyTake=false;
 collisioneDx=false;
 collisioneSx=false;
-global.morto=false;
 timer = room_speed * 3;
